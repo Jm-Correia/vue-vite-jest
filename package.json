@@ -1,0 +1,36 @@
+{
+  "name": "test-2",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vue-cli-service test:unit",
+    "test:watch": "npm test -- --watch",
+    "test:stage": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.9",
+    "@types/jest": "^27.0.1",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.0.6",
+    "faker": "^5.5.3",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.4",
+    "typescript": "~4.5.5",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
